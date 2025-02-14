@@ -25,10 +25,6 @@
   top: -15px;
 }
 .nav__notidot {
-  background-color: tomato;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
