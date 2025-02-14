@@ -16,3 +16,6 @@ body {
   color: #2f363e;
   font-family: "Open Sans", serif;
 }
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
