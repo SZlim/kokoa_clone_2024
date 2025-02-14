@@ -11,5 +11,18 @@
 }
 /*class명 오기입으로 오작동 25.2.14. 00:53*/
 .friends-screen {
-  padding: 0px var(--horizontal-space);
+  padding: var(--horizontal-space);
+}
+
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.friends-screen__channel-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
 }
