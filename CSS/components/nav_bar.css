@@ -20,15 +20,6 @@
   color: #2f363e;
 }
 .nav__notification {
-  background-color: tomato;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: whitesmoke;
-  font-weight: 600;
   position: absolute;
   left: 20px;
   top: -15px;
