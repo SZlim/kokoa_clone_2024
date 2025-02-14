@@ -1,8 +1,12 @@
+.user-component {
+  justify-content: space-between;
+}
+
 .user-component,
-.user-component__column:first-child,
-.user-component__column-num {
+.user-component__column:first-child {
   display: flex;
   align-items: center;
+
   /*padding: 10px 10px; 이 부분이 문제인듯, main에 var로 padding 적용으로 불필요.
   2와 chevron이 라인정렬이 안되는 이유,, 미해결*/
 }
@@ -10,6 +14,7 @@
   width: 70px;
   height: 70px;
   border-radius: 35%;
+  margin-right: 15px;
 }
 
 .user-component__title {
@@ -17,6 +22,9 @@
   font-weight: 600;
 }
 
+.user-component__title--not-bold {
+  font-weight: 400;
+}
 .user-component__subtitle {
   margin-top: 10px;
   font-size: 17px;
@@ -32,4 +40,7 @@
   width: 60px;
   height: 60px;
   border-radius: 35%;
+}
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
 }
