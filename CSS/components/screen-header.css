@@ -10,8 +10,11 @@
   font-weight: 600;
 }
 .screen-header__icon span {
+  position: relative;
   margin-left: 25px;
 }
-.notidot {
-  display: flex;
+.screen-notification:nth-child(2) {
+  position: absolute;
+  left: -5px;
+  top: -5px;
 }
