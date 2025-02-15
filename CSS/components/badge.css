@@ -1,4 +1,4 @@
-.badge {
+.badge-normal {
   background-color: tomato;
   width: 20px;
   height: 20px;
@@ -6,6 +6,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: whitesmoke;
+  font-weight: 600;
+}
+.badge-small {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
   color: whitesmoke;
   font-weight: 600;
 }
