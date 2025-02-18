@@ -16,8 +16,20 @@
   border-radius: 50%;
   display: flex;
   justify-content: center;
-  align-items: center;
   position: absolute;
   color: whitesmoke;
   font-weight: 600;
+}
+
+.badge-circle {
+  position: absolute;
+  border: 1px solid tomato;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  text-align: center;
+  color: tomato;
+  font-weight: 600;
+  left: 140px;
+  top: 35px;
 }
