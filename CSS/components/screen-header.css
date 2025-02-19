@@ -13,8 +13,11 @@
   position: relative;
   margin-left: 25px;
 }
-.screen-notification:nth-child(2) {
+.screen-notification:last-child {
   position: absolute;
-  left: -5px;
-  top: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0px;
+  top: 0px;
 }
