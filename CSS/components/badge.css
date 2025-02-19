@@ -14,11 +14,6 @@
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  color: whitesmoke;
-  font-weight: 600;
 }
 
 .badge-circle {
