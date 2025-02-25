@@ -43,7 +43,7 @@
 
 .open-chat__post--hashtags {
   color: var(--subtitle-text__color);
-  text-transform: uppercase;
+  font-size: 12px;
 }
 
 .open-chat__post--members {
