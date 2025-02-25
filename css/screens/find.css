@@ -12,7 +12,7 @@
 }
 
 .recommended-friends span {
-  margin: 100px 0px;
+  margin: 75px 0px;
   display: block;
   text-align: center;
   font-size: 15px;
@@ -44,6 +44,7 @@
 .open-chat__post--hashtags {
   color: var(--subtitle-text__color);
   font-size: 12px;
+  text-transform: uppercase;
 }
 
 .open-chat__post--members {
